@@ -1,7 +1,7 @@
 {
-  "description": "Adds playback speed seelctors to netflix\nto use this feature simply press p\nneeds to be cahnged every time between episodes/movies or on page reload",
+  "description": "Adds a playback speed selector to Netflix\nto use this feature simply press p\nneeds to be changed every time between episodes/movies or on page reload",
   "manifest_version": 2,
-  "name": "Netfl1x speeder",
+  "name": "Netflix speeder",
   "version": "1.0",
   "homepage_url": "https://github.com/el-germi/NetflixSpeeder",
   "icons": {
