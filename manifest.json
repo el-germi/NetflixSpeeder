@@ -1,0 +1,17 @@
+{
+  "description": "Adds playback speed seelctors to netflix",
+  "manifest_version": 2,
+  "name": "Netfl1x speeder",
+  "version": "1.0",
+  "homepage_url": "https://github.com/el-germi/NetflixSpeeder",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.netflix.com/watch/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
