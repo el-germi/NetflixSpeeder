@@ -7,11 +7,16 @@
   "icons": {
     "48": "icons/border-48.png"
   },
-
   "content_scripts": [
     {
       "matches": ["*://www.netflix.com/watch/*"],
       "js": ["script.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{bdfafbed-560f-42a3-9610-7eaa927869d8}",
+      "strict_min_version": "42.0"
+    }
+  }
 }
